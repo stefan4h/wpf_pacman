@@ -1,0 +1,15 @@
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\bin\Debug\04_PackMan.exe.config
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\bin\Debug\04_PackMan.exe
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\bin\Debug\04_PackMan.pdb
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.csprojResolveAssemblyReference.cache
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\MainWindow.g.cs
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\App.g.cs
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan_MarkupCompile.cache
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan_MarkupCompile.lref
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\MainWindow.baml
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.g.resources
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\_04_PackMan.Properties.Resources.resources
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.csproj.GenerateResource.Cache
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.csproj.CoreCompileInputs.cache
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.exe
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.pdb
