@@ -29,16 +29,17 @@ namespace _04_PackMan
         List<Shape> borders = new List<Shape>();
         BorderController borderController;
         int counter;
+        int generateCounter;
 
         public MainWindow()
         {
             InitializeComponent();
             enemies = new Dictionary<Ellipse, Direction>();
             timer = new DispatcherTimer();
+            generateCounter = 0;
 
 
-
-            counter = 9999;
+            counter = 0;
 
 
 
@@ -66,51 +67,86 @@ namespace _04_PackMan
                 Canvas.SetTop(ellipse, 100);
                 boxes.Children.Add(ellipse);
 
-                enemies.Add(ellipse, Direction.up);
+                enemies.Add(ellipse, Direction.down);
             }
             timer.Start();
         }
 
         public void MoveEnemies(object sender, EventArgs e)
         {
-            counter++;
 
-            if(counter == 10000)
+            bool checkValidDirection = false;
+            if (generateCounter == 400)
+            {
+                GenerateEnemie();
+                generateCounter = 0;
+            }
+            generateCounter++;
+            if (counter == 25)
             {
                 counter = 0;
-                //GenerateEnemie();
+                checkValidDirection = true;
             }
-
+            counter++;
 
             Dictionary<Ellipse, Direction> currentEnemies = new Dictionary<Ellipse, Direction>();
             List<Direction> validDirections = new List<Direction>();
             Random r = new Random();
 
-            foreach (KeyValuePair<Ellipse, Direction> enemie in enemies)
+            if (checkValidDirection)
             {
-                validDirections.Clear();
-                validDirections = borderController.GetValidDirections(enemie);                
+                foreach (KeyValuePair<Ellipse, Direction> enemie in enemies)
+                {
+                    validDirections.Clear();
+                    validDirections = borderController.GetValidDirections(enemie.Key);
+                    if (validDirections.Count > 1)
+                    {
+                        if (enemie.Value == Direction.down && validDirections.Contains(Direction.up))
+                        {
+                            validDirections.Remove(Direction.up);
+                        }
+                        else if (enemie.Value == Direction.left && validDirections.Contains(Direction.right))
+                        {
+                            validDirections.Remove(Direction.right);
+                        }
+                        else if (enemie.Value == Direction.up && validDirections.Contains(Direction.down))
+                        {
+                            validDirections.Remove(Direction.down);
+                        }
+                        else if (enemie.Value == Direction.right && validDirections.Contains(Direction.left))
+                        {
+                            validDirections.Remove(Direction.left);
+                        }
+                    }
+                   
+                   
+                    int choose = r.Next(0, validDirections.Count);
+                    KeyValuePair<Ellipse, Direction> editEnemie = new KeyValuePair<Ellipse, Direction>(enemie.Key, validDirections[choose]);
 
-                KeyValuePair<Ellipse, Direction> editEnemie = new KeyValuePair<Ellipse, Direction>(enemie.Key, validDirections[r.Next(0, validDirections.Count - 1)]);
+                    
 
-                
-                currentEnemies.Add(editEnemie.Key, editEnemie.Value);
+                    currentEnemies.Add(editEnemie.Key, editEnemie.Value);
+
+                }
+
+                enemies.Clear();
+
+                foreach (KeyValuePair<Ellipse, Direction> enemie in currentEnemies)
+                {
+                    enemies.Add(enemie.Key, enemie.Value);
+                }
+
+                currentEnemies.Clear();
             }
 
-            foreach (KeyValuePair<Ellipse, Direction> enemie in currentEnemies)
+            foreach (KeyValuePair<Ellipse, Direction> enemie in enemies)
             { 
                 DoEnemieMove(enemie);
             }
 
-            enemies.Clear();
+            
 
 
-            foreach (KeyValuePair<Ellipse, Direction> enemie in currentEnemies)
-            {
-                enemies.Add(enemie.Key, enemie.Value);
-            }
-
-            currentEnemies.Clear();
 
         }
 

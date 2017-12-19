@@ -11,166 +11,64 @@ namespace _04_PackMan
     class BorderController
     {
         public List<Shape> borders;
+        List<Direction> validDirections;
 
         public BorderController(List<Shape> borders)
         {
             this.borders = borders;
+            validDirections = new List<Direction>();
         }
 
-        public bool IsBorderLeft(Ellipse e)
+        public List<Direction> GetValidDirections(Ellipse enemie)
         {
-            double x = Canvas.GetLeft(e);
-            double y = Canvas.GetTop(e);
+            validDirections.Clear();    
+            double x = Canvas.GetLeft(enemie);
+            double y = Canvas.GetTop(enemie);
 
-            foreach (Shape block in borders)
+            double xBox = 0;
+            double yBox = 0;
+            bool isBoxUp = false;
+            bool isBoxDown = false;
+            bool isBoxLeft = false;
+            bool isBoxRight = false;
+
+            foreach (Shape box in borders)
             {
-                if (x == Canvas.GetLeft(block) + 25)   
+                xBox = Canvas.GetLeft(box);
+                yBox = Canvas.GetTop(box);
+                if (xBox.Equals(Double.NaN))
+                    xBox = 0;
+                if (yBox.Equals(Double.NaN))
+                    yBox = 0;
+
+                if (xBox == x && yBox == y - 25)
                 {
-                    if (y == Canvas.GetTop(block) + 25)
-                    {
-                        return true;
-                    }
+                    isBoxUp = true;
                 }
-            }
-            
-            return false;
-        }
-
-        public bool IsBorderRight(Ellipse e)
-        {
-            double x = Canvas.GetLeft(e);
-            double y = Canvas.GetTop(e);
-
-            foreach (Shape block in borders)
-            {
-                if (x == Canvas.GetLeft(block) + 25)
+                else if (xBox == x && Canvas.GetTop(box) == y + 25)
                 {
-                    if (y == Canvas.GetTop(block) - 25)
-                    {
-                        return true;
-                    }
+                    isBoxDown = true;
                 }
-            }
-
-            return false;
-        }
-
-        public bool IsBorderTop(Ellipse e)
-        {
-            double x = Canvas.GetLeft(e);
-            double y = Canvas.GetTop(e);
-
-            foreach (Shape block in borders)
-            {
-                if (x == Canvas.GetLeft(block))
+                else if(xBox == x - 25 && yBox == y)
                 {
-                    if (y == Canvas.GetTop(block) - 25)
-                    {
-                        return true;
-                    }
+                    isBoxLeft = true;
                 }
-            }
-            return false;
-        }
-
-        public bool IsBorderBottom(Ellipse e)
-        {
-            double x = Canvas.GetLeft(e);
-            double y = Canvas.GetTop(e);
-
-            foreach (Shape block in borders)
-            {
-                if (x == Canvas.GetLeft(block))
+                else if (xBox == x + 25 && yBox == y)
                 {
-                    if (y == Canvas.GetTop(block) - 25)
-                    {
-                        return true;
-                    }
+                    isBoxRight = true;
                 }
+
+                
             }
-
-            return false;
-        }
-
-
-        public List<Direction> GetValidDirections(KeyValuePair<Ellipse, Direction> enemie)
-        {
-
-            List<Direction> validDirections = new List<Direction>();
-
-            switch (enemie.Value)
-            {
-                case Direction.down:
-
-                    if (!this.IsBorderLeft(enemie.Key))
-                    {
-                        validDirections.Add(Direction.left);
-                    }
-
-                    if (!this.IsBorderRight(enemie.Key))
-                    {
-                        validDirections.Add(Direction.right);
-                    }
-
-                    if (!this.IsBorderBottom(enemie.Key))
-                    {
-                        validDirections.Add(Direction.down);
-                    }
-
-                    break;
-                case Direction.up:
-                    if (!this.IsBorderTop(enemie.Key))
-                    {
-                        validDirections.Add(Direction.up);
-                    }
-
-                    if (!this.IsBorderLeft(enemie.Key))
-                    {
-                        validDirections.Add(Direction.left);
-                    }
-
-                    if (!this.IsBorderRight(enemie.Key))
-                    {
-                        validDirections.Add(Direction.right);
-                    }
-
-                    break;
-                case Direction.right:
-
-                    if (!this.IsBorderTop(enemie.Key))
-                    {
-                        validDirections.Add(Direction.up);
-                    }
-
-                    if (!this.IsBorderBottom(enemie.Key))
-                    {
-                        validDirections.Add(Direction.down);
-                    }
-
-                    if (!this.IsBorderRight(enemie.Key))
-                    {
-                        validDirections.Add(Direction.right);
-                    }
-                    break;
-                case Direction.left:
-
-                    if (!this.IsBorderTop(enemie.Key))
-                    {
-                        validDirections.Add(Direction.up);
-                    }
-
-                    if (!this.IsBorderBottom(enemie.Key))
-                    {
-                        validDirections.Add(Direction.down);
-                    }
-
-                    if (!this.IsBorderLeft(enemie.Key))
-                    {
-                        validDirections.Add(Direction.left);
-                    }
-
-                    break;
-            }
+            if (!isBoxUp)
+                validDirections.Add(Direction.up);
+            if (!isBoxDown)
+                validDirections.Add(Direction.down);
+            if (!isBoxLeft)
+                validDirections.Add(Direction.left);
+            if (!isBoxRight)
+                validDirections.Add(Direction.right);
+           
 
             return validDirections;
         }
