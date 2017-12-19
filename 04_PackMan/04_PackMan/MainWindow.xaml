@@ -6,148 +6,158 @@
         xmlns:local="clr-namespace:_04_PackMan"
         mc:Ignorable="d"
         Title="MainWindow" Height="390" Width="600">
-    <Grid Margin="0,0,2,-1">
+    <Canvas Margin="0,0,2,-1" Name="boxes">
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="25,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="50,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="75,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="100,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="125,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="150,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="175,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="200,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="225,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="250,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="275,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="300,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="325,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="350,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="375,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="400,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,25,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,100,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,150,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,200,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,250,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,300,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="450,325,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="400,325,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="375,325,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="350,325,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="325,325,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="300,325,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="275,325,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="250,325,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="225,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="200,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="175,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="150,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="125,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="100,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="75,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="50,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="25,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,325,0,0" RenderTransformOrigin="0.653,1.627"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,25,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,100,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,150,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,200,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,250,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="0,300,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="50,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="75,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="100,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="250,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="275,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="200,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="175,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="175,150,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="175,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="200,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="225,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="250,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="275,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="275,150,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="425,0,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="425,325,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="50,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="75,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="100,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="150,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="150,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="175,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="200,100,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="250,100,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="225,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="300,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="275,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="300,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="350,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="375,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="400,50,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="350,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="375,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="400,75,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="50,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="75,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="100,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="50,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="75,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="100,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="150,250,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="150,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="150,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="300,250,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="300,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="300,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="350,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="375,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="400,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="350,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="375,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="400,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="200,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="225,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="250,225,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="200,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="225,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="250,275,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="225,250,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="325,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="325,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="325,150,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="375,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="400,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="375,150,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="400,150,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="375,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="400,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="50,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="75,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="50,150,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="75,150,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="50,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="75,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="125,125,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="125,175,0,0"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Margin="125,150,0,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="25"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="50"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="75"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="100"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="125"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="150"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="175"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="200"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="275"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="300"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="325"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="350"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="25"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="50"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="75"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="100"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="125"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="150"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="175"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="200"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="225"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="250"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="275"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="275"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="300"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="450" Canvas.Top="325"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="325"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="325"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="350" Canvas.Top="325"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="325" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="300" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="275" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="200" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="175" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="150" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="125" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="100" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="75" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="50" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="25" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="325" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="25" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="50" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="75" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="100" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="125"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="150" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="200" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="250" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Top="300" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="50" Canvas.Top="50"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="75" Canvas.Top="50" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="100" Canvas.Top="50" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="125" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="275" Canvas.Top="125" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="200" Canvas.Top="125" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="175" Canvas.Top="125" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="175" Canvas.Top="150" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="175" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="200" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="275" Canvas.Top="175"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="275" Canvas.Top="150"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="425" Canvas.Top="325"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="425"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="150" Canvas.Top="50"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225" Canvas.Top="50" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="50" Canvas.Top="75"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="75" Canvas.Top="75" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="100" Canvas.Top="75" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="150" Canvas.Top="75" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="175" Canvas.Top="50"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="275" Canvas.Top="50"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="300" Canvas.Top="50"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="300" Canvas.Top="75" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="350" Canvas.Top="50"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="50" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="50" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="350" Canvas.Top="75"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="75" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="75" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="50" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="50" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="75" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="75" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="125" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="125" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="150" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="150" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="325" Canvas.Top="125"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="325" Canvas.Top="150" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="325" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="125" Canvas.Top="125"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="125" Canvas.Top="150" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="125" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="50" Canvas.Top="125" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="75" Canvas.Top="125" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="50" Canvas.Top="150" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="75" Canvas.Top="150" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="50" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="75" Canvas.Top="175" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="350" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="375" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="400" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="350" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="75" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="100" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="50" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="75" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="100" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="50" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="150" Canvas.Top="225"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="150" Canvas.Top="250" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="150" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="300" Canvas.Top="225"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="300" Canvas.Top="250" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="300" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="200" Canvas.Top="225"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="200" Canvas.Top="250"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225" Canvas.Top="250" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="250" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="225" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225" Canvas.Top="250" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="250" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="200" Canvas.Top="275"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="225" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="275" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="200" Canvas.Top="100" />
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="250" Canvas.Top="100" />
+        <Ellipse x:Name="Pacman" Fill="#FFE5D819" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="25" Canvas.Left="25" Canvas.Top="25" />
 
-
-
-    </Grid>
+    </Canvas>
 </Window>

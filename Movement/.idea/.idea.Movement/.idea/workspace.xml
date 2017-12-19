@@ -10,7 +10,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="SoftEnemiesMovement.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Movement/SoftEnemiesMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <marker date="1513324267736" expanded="true" signature="33:1479" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="84:1477" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="352:403" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="457:518" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="572:633" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="686:1056" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="727:953" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="861:939" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="1117:1471" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="1155:1381" ph="{...}" />
+                <marker date="1513324267736" expanded="true" signature="1289:1367" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Movement/IMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -103,6 +126,9 @@
       <option name="PROJECT_OUTPUT_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="None" />
       <option name="PROJECT_TFM" value="" />
+      <method>
+        <option name="Build" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -117,11 +143,12 @@
       <updated>1512111531744</updated>
       <workItem from="1512111535104" duration="2447000" />
       <workItem from="1513252578925" duration="52000" />
+      <workItem from="1513323822664" duration="483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2499000" />
+    <option name="totallyTimeSpent" value="2982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -143,7 +170,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -175,34 +202,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Movement/SoftEnemiesMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <marker date="1512113970229" expanded="true" signature="33:1481" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="84:1479" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="354:405" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="459:520" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="574:635" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="688:1058" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="729:955" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="863:941" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="1119:1473" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="1157:1383" ph="{...}" />
-            <marker date="1512113970229" expanded="true" signature="1291:1369" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Movement/IMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <marker date="1512112943273" expanded="true" signature="18:253" ph="{...}" />
-            <marker date="1512112943273" expanded="true" signature="51:251" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -210,13 +213,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movement/SoftEnemiesMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
-            <marker date="1512113206461" expanded="true" signature="33:588" ph="{...}" />
-            <marker date="1512113206461" expanded="true" signature="84:586" ph="{...}" />
-            <marker date="1512113206461" expanded="true" signature="143:212" ph="{...}" />
-            <marker date="1512113206461" expanded="true" signature="266:335" ph="{...}" />
-            <marker date="1512113206461" expanded="true" signature="388:457" ph="{...}" />
-            <marker date="1512113206461" expanded="true" signature="511:580" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="33:1479" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="84:1477" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="352:403" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="457:518" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="572:633" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="686:1056" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="727:953" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="861:939" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="1117:1471" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="1155:1381" ph="{...}" />
+            <marker date="1513324267736" expanded="true" signature="1289:1367" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -9,8 +9,8 @@ namespace Movement
         private readonly Random _r;
         private int _moveValue = 2;
 
-        private bool moveUpDown = true;
-        private bool moveLeftRight = true;
+        public bool moveUpDown = true;
+        public bool moveLeftRight = true;
 
         public SoftEnemiesMovement()
         {
@@ -34,7 +34,7 @@ namespace Movement
                 int value = _r.Next(oldPosition, oldPosition + _moveValue);
                 if (value <= _maxXPosition)
                 {
-                    return _maxXPosition;
+                    return value;
                 }
             }
             
@@ -49,7 +49,7 @@ namespace Movement
                 int value = _r.Next(oldPosition, oldPosition + _moveValue);
                 if (value <= _maxYPosition)
                 {
-                    return _maxYPosition;
+                    return value;
                 }
             }
             

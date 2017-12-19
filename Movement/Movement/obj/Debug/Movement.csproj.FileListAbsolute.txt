@@ -1,0 +1,6 @@
+E:\4AHIT\SEW\sew_project_hangman\Movement\Movement\bin\Debug\Movement.dll
+E:\4AHIT\SEW\sew_project_hangman\Movement\Movement\bin\Debug\Movement.pdb
+E:\4AHIT\SEW\sew_project_hangman\Movement\Movement\obj\Debug\Movement.csprojResolveAssemblyReference.cache
+E:\4AHIT\SEW\sew_project_hangman\Movement\Movement\obj\Debug\Movement.csproj.CoreCompileInputs.cache
+E:\4AHIT\SEW\sew_project_hangman\Movement\Movement\obj\Debug\Movement.dll
+E:\4AHIT\SEW\sew_project_hangman\Movement\Movement\obj\Debug\Movement.pdb

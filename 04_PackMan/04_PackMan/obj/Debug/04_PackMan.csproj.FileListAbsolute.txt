@@ -13,3 +13,5 @@ E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.cspr
 E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.csproj.CoreCompileInputs.cache
 E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.exe
 E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\obj\Debug\04_PackMan.pdb
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\bin\Debug\Movement.dll
+E:\4AHIT\SEW\sew_project_hangman\04_PackMan\04_PackMan\bin\Debug\Movement.pdb
