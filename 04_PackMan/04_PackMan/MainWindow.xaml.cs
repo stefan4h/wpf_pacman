@@ -20,24 +20,38 @@ namespace _04_PackMan
     /// Interaktionslogik für MainWindow.xaml
     /// </summary>
     /// 
-    public enum Direction { up , down, left, right };
+    public enum Direction { up , down, left, right, none };
     public partial class MainWindow : Window
     {
+        //Timer
+        private DispatcherTimer enemyTimer, pacmanTimer;
 
-        DispatcherTimer timer;
-        Dictionary<Ellipse, Direction> enemies;
+        //Controller
+        private CollisionController collisionController;
+        private BorderController borderController;
+        private PacmanBorderController pacBorderController;
+
+        //Lists of Entitys
+        Dictionary<Ellipse, Direction> enemyList;
         List<Shape> borders = new List<Shape>();
-        BorderController borderController;
-        int counter;
-        int generateCounter;
+        
+        //Attributes
+        private Direction currentDirection,newDircetion;
+        private int counter;
+        private int generateCounter;
+        private const double speed =1;
+
+        public object Keys { get; private set; }
+
 
         public MainWindow()
         {
             InitializeComponent();
-            enemies = new Dictionary<Ellipse, Direction>();
-            timer = new DispatcherTimer();
+            enemyList = new Dictionary<Ellipse, Direction>();
+            enemyTimer = new DispatcherTimer();
+            pacmanTimer = new DispatcherTimer();
             generateCounter = 0;
-
+            EventManager.RegisterClassHandler(typeof(MainWindow), UIElement.KeyDownEvent, new KeyEventHandler(KeyDownHandler));
 
             counter = 0;
 
@@ -47,19 +61,90 @@ namespace _04_PackMan
             borderController = new BorderController(borders);
             GenerateEnemie();
 
-            timer.Interval = new TimeSpan(0, 0, 0, 0, 10);
-            timer.Tick += new EventHandler(MoveEnemies);
-            timer.Start();
+            enemyTimer.Interval = new TimeSpan(0, 0, 0, 0, 30);
+            enemyTimer.Tick += new EventHandler(MoveEnemies);
+            pacmanTimer.Interval = new TimeSpan(0, 0, 0, 0, 1);
+            enemyTimer.Start();
+            pacmanTimer.Start();
+            pacmanTimer.Tick += new EventHandler(Move);
+            currentDirection = Direction.none;
+            newDircetion = Direction.none;
+        }
+        private void MoveLeft()
+        {
+                double left = Canvas.GetLeft(Pacman);
+                left -= speed;
+                Canvas.SetLeft(Pacman, left);
+                currentDirection = Direction.left;
+        }
+        private void MoveRight()
+        {
+                double left = Canvas.GetLeft(Pacman);
+                left += speed;
+                Canvas.SetLeft(Pacman, left);
+                currentDirection = Direction.right;
+        }
+        private void MoveUp()
+        {
+                double top = Canvas.GetTop(Pacman);
+                top -= speed;
+                Canvas.SetTop(Pacman, top);
+                currentDirection = Direction.up;
+        }
+        private void MoveDown()
+        {
+                double top = Canvas.GetTop(Pacman);
+                top += speed;
+                Canvas.SetTop(Pacman, top);
+                currentDirection = Direction.down;
+        }
 
+        private void Move(object sender, EventArgs e) {
+            collisionController = new CollisionController(enemyList);
+            if (collisionController.HasCrashed(Pacman))
+                MessageBox.Show("Crashed");
+            if (currentDirection != Direction.none || newDircetion!=currentDirection)
+            {
+                pacBorderController = new PacmanBorderController(borders, currentDirection,newDircetion);
+                switch (pacBorderController.GetValidDirections(Pacman))
+                {
+                    case Direction.left:MoveLeft();currentDirection = Direction.left;  break;
+                    case Direction.right: MoveRight();currentDirection = Direction.right; break;
+                    case Direction.up: MoveUp();currentDirection = Direction.up; break;
+                    case Direction.down: MoveDown();currentDirection = Direction.down; break;
+                    case Direction.none:  break;
+
+                }
+            }
+        }
+
+        void KeyDownHandler(object sender, KeyEventArgs e)
+        {
+            UIElement element = e.OriginalSource as UIElement;
+            if (Pacman != null)
+            {
+                    switch (e.Key)
+                    {
+                        case Key.Left: newDircetion = Direction.left; break;
+                        case Key.Right: newDircetion = Direction.right; break;
+                        case Key.Up: newDircetion = Direction.up; break;
+                        case Key.Down: newDircetion = Direction.down; break;
+                    }
+            }
+        }
+        private bool CheckIf25() {
+            if (Canvas.GetLeft(Pacman) % 25 == 0 && Canvas.GetTop(Pacman) % 25 == 0)
+                return true;
+            return false;
         }
 
         public void GenerateEnemie()
         {
-            timer.Stop();
-            if (!timer.IsEnabled)
+            enemyTimer.Stop();
+            if (!enemyTimer.IsEnabled)
             {
                 Ellipse ellipse = new Ellipse();
-                ellipse.Name = "Enemie" + enemies.Count;
+                ellipse.Name = "Enemie" + enemyList.Count;
                 ellipse.Fill = Brushes.Red;
                 ellipse.Height = 25;
                 ellipse.Width = 25;
@@ -67,9 +152,9 @@ namespace _04_PackMan
                 Canvas.SetTop(ellipse, 100);
                 boxes.Children.Add(ellipse);
 
-                enemies.Add(ellipse, Direction.down);
+                enemyList.Add(ellipse, Direction.down);
             }
-            timer.Start();
+            enemyTimer.Start();
         }
 
         public void MoveEnemies(object sender, EventArgs e)
@@ -95,7 +180,7 @@ namespace _04_PackMan
 
             if (checkValidDirection)
             {
-                foreach (KeyValuePair<Ellipse, Direction> enemie in enemies)
+                foreach (KeyValuePair<Ellipse, Direction> enemie in enemyList)
                 {
                     validDirections.Clear();
                     validDirections = borderController.GetValidDirections(enemie.Key);
@@ -129,17 +214,17 @@ namespace _04_PackMan
 
                 }
 
-                enemies.Clear();
+                enemyList.Clear();
 
                 foreach (KeyValuePair<Ellipse, Direction> enemie in currentEnemies)
                 {
-                    enemies.Add(enemie.Key, enemie.Value);
+                    enemyList.Add(enemie.Key, enemie.Value);
                 }
 
                 currentEnemies.Clear();
             }
 
-            foreach (KeyValuePair<Ellipse, Direction> enemie in enemies)
+            foreach (KeyValuePair<Ellipse, Direction> enemie in enemyList)
             { 
                 DoEnemieMove(enemie);
             }
